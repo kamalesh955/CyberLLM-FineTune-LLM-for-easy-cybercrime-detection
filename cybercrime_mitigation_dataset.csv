@@ -1,0 +1,101 @@
+Cybercrime,Identification,Mitigation Strategy 1,Mitigation Strategy 2,Mitigation Strategy 3
+DNS Spoofing,Redirects to fake websites despite correct URLs.,Use DNSSEC,Monitor DNS traffic,Use secure DNS providers
+Cross-Site Scripting (XSS),Unexpected scripts executing in the browser.,Escape user inputs,Use Content Security Policy,Sanitize input fields
+Ransomware,Files become inaccessible and a ransom message appears.,Regular backups,Endpoint protection,User awareness training
+Botnet,Increased outbound traffic and remote command execution.,Use firewall rules,Patch vulnerabilities,Detect unusual traffic patterns
+Rootkit,Hidden files/processes and unauthorized access permissions.,Use rootkit scanners,Reinstall OS,Limit user privileges
+Botnet,Increased outbound traffic and remote command execution.,Use firewall rules,Patch vulnerabilities,Detect unusual traffic patterns
+Rootkit,Hidden files/processes and unauthorized access permissions.,Use rootkit scanners,Reinstall OS,Limit user privileges
+Zero-Day Exploit,Exploitation of unknown software vulnerabilities.,Apply patches promptly,Use threat intelligence,Deploy intrusion detection systems
+Man-in-the-Middle Attack,Unexpected behavior during data transmission.,Use encrypted communications (HTTPS),Avoid public Wi-Fi,Implement VPNs
+Man-in-the-Middle Attack,Unexpected behavior during data transmission.,Use encrypted communications (HTTPS),Avoid public Wi-Fi,Implement VPNs
+DNS Spoofing,Redirects to fake websites despite correct URLs.,Use DNSSEC,Monitor DNS traffic,Use secure DNS providers
+Trojan Horse,Legitimate-looking software installs harmful payload.,Educate users,Block untrusted sources,Keep software up-to-date
+Adware,Frequent ad pop-ups and browser redirections.,Use ad-blockers,Scan regularly with antivirus,Avoid freeware from unknown sources
+Rootkit,Hidden files/processes and unauthorized access permissions.,Use rootkit scanners,Reinstall OS,Limit user privileges
+Credential Stuffing,Multiple failed login attempts from unknown IPs.,Use CAPTCHA,Implement account lockout policies,Use MFA
+DNS Spoofing,Redirects to fake websites despite correct URLs.,Use DNSSEC,Monitor DNS traffic,Use secure DNS providers
+Drive-by Download,Malware installs just by visiting a compromised website.,Use secure browsers,Block outdated plugins,Use web filters
+DNS Spoofing,Redirects to fake websites despite correct URLs.,Use DNSSEC,Monitor DNS traffic,Use secure DNS providers
+Rootkit,Hidden files/processes and unauthorized access permissions.,Use rootkit scanners,Reinstall OS,Limit user privileges
+Drive-by Download,Malware installs just by visiting a compromised website.,Use secure browsers,Block outdated plugins,Use web filters
+Cross-Site Scripting (XSS),Unexpected scripts executing in the browser.,Escape user inputs,Use Content Security Policy,Sanitize input fields
+Phishing,Unusual email requests with urgent language and suspicious links.,Implement email filtering,Educate users on phishing,Use multi-factor authentication
+DNS Spoofing,Redirects to fake websites despite correct URLs.,Use DNSSEC,Monitor DNS traffic,Use secure DNS providers
+Rootkit,Hidden files/processes and unauthorized access permissions.,Use rootkit scanners,Reinstall OS,Limit user privileges
+Phishing,Unusual email requests with urgent language and suspicious links.,Implement email filtering,Educate users on phishing,Use multi-factor authentication
+Credential Stuffing,Multiple failed login attempts from unknown IPs.,Use CAPTCHA,Implement account lockout policies,Use MFA
+Phishing,Unusual email requests with urgent language and suspicious links.,Implement email filtering,Educate users on phishing,Use multi-factor authentication
+Cross-Site Scripting (XSS),Unexpected scripts executing in the browser.,Escape user inputs,Use Content Security Policy,Sanitize input fields
+Malware,Sluggish system performance and unexpected pop-ups.,Install antivirus software,Regular system updates,Restrict admin rights
+Session Hijacking,Sessions being interrupted or hijacked.,Use secure cookies,Implement session timeouts,Use HTTPS
+Keylogger,Unusual data transmission while typing.,Install anti-keylogger software,Avoid suspicious software,Keep systems patched
+Social Engineering,Requests for sensitive data via impersonation.,Conduct regular training,Verify identities,Simulate attacks for practice
+Man-in-the-Middle Attack,Unexpected behavior during data transmission.,Use encrypted communications (HTTPS),Avoid public Wi-Fi,Implement VPNs
+Keylogger,Unusual data transmission while typing.,Install anti-keylogger software,Avoid suspicious software,Keep systems patched
+Drive-by Download,Malware installs just by visiting a compromised website.,Use secure browsers,Block outdated plugins,Use web filters
+Rootkit,Hidden files/processes and unauthorized access permissions.,Use rootkit scanners,Reinstall OS,Limit user privileges
+Rootkit,Hidden files/processes and unauthorized access permissions.,Use rootkit scanners,Reinstall OS,Limit user privileges
+Drive-by Download,Malware installs just by visiting a compromised website.,Use secure browsers,Block outdated plugins,Use web filters
+Man-in-the-Middle Attack,Unexpected behavior during data transmission.,Use encrypted communications (HTTPS),Avoid public Wi-Fi,Implement VPNs
+DDoS Attack,Network or website becomes unresponsive due to traffic overload.,Use rate limiting,Deploy web application firewall,Have a DDoS response plan
+Drive-by Download,Malware installs just by visiting a compromised website.,Use secure browsers,Block outdated plugins,Use web filters
+Phishing,Unusual email requests with urgent language and suspicious links.,Implement email filtering,Educate users on phishing,Use multi-factor authentication
+DDoS Attack,Network or website becomes unresponsive due to traffic overload.,Use rate limiting,Deploy web application firewall,Have a DDoS response plan
+Rootkit,Hidden files/processes and unauthorized access permissions.,Use rootkit scanners,Reinstall OS,Limit user privileges
+Keylogger,Unusual data transmission while typing.,Install anti-keylogger software,Avoid suspicious software,Keep systems patched
+Drive-by Download,Malware installs just by visiting a compromised website.,Use secure browsers,Block outdated plugins,Use web filters
+Drive-by Download,Malware installs just by visiting a compromised website.,Use secure browsers,Block outdated plugins,Use web filters
+DDoS Attack,Network or website becomes unresponsive due to traffic overload.,Use rate limiting,Deploy web application firewall,Have a DDoS response plan
+Zero-Day Exploit,Exploitation of unknown software vulnerabilities.,Apply patches promptly,Use threat intelligence,Deploy intrusion detection systems
+Ransomware,Files become inaccessible and a ransom message appears.,Regular backups,Endpoint protection,User awareness training
+Session Hijacking,Sessions being interrupted or hijacked.,Use secure cookies,Implement session timeouts,Use HTTPS
+Session Hijacking,Sessions being interrupted or hijacked.,Use secure cookies,Implement session timeouts,Use HTTPS
+Cross-Site Scripting (XSS),Unexpected scripts executing in the browser.,Escape user inputs,Use Content Security Policy,Sanitize input fields
+DNS Spoofing,Redirects to fake websites despite correct URLs.,Use DNSSEC,Monitor DNS traffic,Use secure DNS providers
+Credential Stuffing,Multiple failed login attempts from unknown IPs.,Use CAPTCHA,Implement account lockout policies,Use MFA
+Zero-Day Exploit,Exploitation of unknown software vulnerabilities.,Apply patches promptly,Use threat intelligence,Deploy intrusion detection systems
+Credential Stuffing,Multiple failed login attempts from unknown IPs.,Use CAPTCHA,Implement account lockout policies,Use MFA
+Phishing,Unusual email requests with urgent language and suspicious links.,Implement email filtering,Educate users on phishing,Use multi-factor authentication
+Keylogger,Unusual data transmission while typing.,Install anti-keylogger software,Avoid suspicious software,Keep systems patched
+Credential Stuffing,Multiple failed login attempts from unknown IPs.,Use CAPTCHA,Implement account lockout policies,Use MFA
+DDoS Attack,Network or website becomes unresponsive due to traffic overload.,Use rate limiting,Deploy web application firewall,Have a DDoS response plan
+Keylogger,Unusual data transmission while typing.,Install anti-keylogger software,Avoid suspicious software,Keep systems patched
+Session Hijacking,Sessions being interrupted or hijacked.,Use secure cookies,Implement session timeouts,Use HTTPS
+Drive-by Download,Malware installs just by visiting a compromised website.,Use secure browsers,Block outdated plugins,Use web filters
+Man-in-the-Middle Attack,Unexpected behavior during data transmission.,Use encrypted communications (HTTPS),Avoid public Wi-Fi,Implement VPNs
+Drive-by Download,Malware installs just by visiting a compromised website.,Use secure browsers,Block outdated plugins,Use web filters
+Zero-Day Exploit,Exploitation of unknown software vulnerabilities.,Apply patches promptly,Use threat intelligence,Deploy intrusion detection systems
+Spyware,Unauthorized access to personal data and strange system behavior.,Run anti-spyware software,Limit admin privileges,Avoid untrusted downloads
+DNS Spoofing,Redirects to fake websites despite correct URLs.,Use DNSSEC,Monitor DNS traffic,Use secure DNS providers
+Spyware,Unauthorized access to personal data and strange system behavior.,Run anti-spyware software,Limit admin privileges,Avoid untrusted downloads
+Botnet,Increased outbound traffic and remote command execution.,Use firewall rules,Patch vulnerabilities,Detect unusual traffic patterns
+Botnet,Increased outbound traffic and remote command execution.,Use firewall rules,Patch vulnerabilities,Detect unusual traffic patterns
+Phishing,Unusual email requests with urgent language and suspicious links.,Implement email filtering,Educate users on phishing,Use multi-factor authentication
+Adware,Frequent ad pop-ups and browser redirections.,Use ad-blockers,Scan regularly with antivirus,Avoid freeware from unknown sources
+Zero-Day Exploit,Exploitation of unknown software vulnerabilities.,Apply patches promptly,Use threat intelligence,Deploy intrusion detection systems
+DDoS Attack,Network or website becomes unresponsive due to traffic overload.,Use rate limiting,Deploy web application firewall,Have a DDoS response plan
+Keylogger,Unusual data transmission while typing.,Install anti-keylogger software,Avoid suspicious software,Keep systems patched
+Phishing,Unusual email requests with urgent language and suspicious links.,Implement email filtering,Educate users on phishing,Use multi-factor authentication
+Credential Stuffing,Multiple failed login attempts from unknown IPs.,Use CAPTCHA,Implement account lockout policies,Use MFA
+Spyware,Unauthorized access to personal data and strange system behavior.,Run anti-spyware software,Limit admin privileges,Avoid untrusted downloads
+Insider Threat,Sensitive data leaks or changes traced to internal users.,Monitor user activity,Restrict access levels,Conduct background checks
+Botnet,Increased outbound traffic and remote command execution.,Use firewall rules,Patch vulnerabilities,Detect unusual traffic patterns
+Cross-Site Scripting (XSS),Unexpected scripts executing in the browser.,Escape user inputs,Use Content Security Policy,Sanitize input fields
+DDoS Attack,Network or website becomes unresponsive due to traffic overload.,Use rate limiting,Deploy web application firewall,Have a DDoS response plan
+Social Engineering,Requests for sensitive data via impersonation.,Conduct regular training,Verify identities,Simulate attacks for practice
+Keylogger,Unusual data transmission while typing.,Install anti-keylogger software,Avoid suspicious software,Keep systems patched
+DDoS Attack,Network or website becomes unresponsive due to traffic overload.,Use rate limiting,Deploy web application firewall,Have a DDoS response plan
+Social Engineering,Requests for sensitive data via impersonation.,Conduct regular training,Verify identities,Simulate attacks for practice
+Trojan Horse,Legitimate-looking software installs harmful payload.,Educate users,Block untrusted sources,Keep software up-to-date
+Phishing,Unusual email requests with urgent language and suspicious links.,Implement email filtering,Educate users on phishing,Use multi-factor authentication
+Trojan Horse,Legitimate-looking software installs harmful payload.,Educate users,Block untrusted sources,Keep software up-to-date
+Ransomware,Files become inaccessible and a ransom message appears.,Regular backups,Endpoint protection,User awareness training
+Keylogger,Unusual data transmission while typing.,Install anti-keylogger software,Avoid suspicious software,Keep systems patched
+SQL Injection,Database errors or unauthorized data access in web apps.,Use parameterized queries,Sanitize inputs,Regularly test for vulnerabilities
+Botnet,Increased outbound traffic and remote command execution.,Use firewall rules,Patch vulnerabilities,Detect unusual traffic patterns
+SQL Injection,Database errors or unauthorized data access in web apps.,Use parameterized queries,Sanitize inputs,Regularly test for vulnerabilities
+Malware,Sluggish system performance and unexpected pop-ups.,Install antivirus software,Regular system updates,Restrict admin rights
+Keylogger,Unusual data transmission while typing.,Install anti-keylogger software,Avoid suspicious software,Keep systems patched
+Spyware,Unauthorized access to personal data and strange system behavior.,Run anti-spyware software,Limit admin privileges,Avoid untrusted downloads
+Session Hijacking,Sessions being interrupted or hijacked.,Use secure cookies,Implement session timeouts,Use HTTPS
