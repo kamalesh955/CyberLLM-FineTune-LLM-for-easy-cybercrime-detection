@@ -1,2 +1,3 @@
 # CyberLLM-FineTune-LLM-for-easy-cybercrime-detection
 Fine-tuned GPT-2 model for identifying cybercrime scenarios and suggesting mitigation strategies using Jupyter Notebook workflows
+This project features a fine-tuned GPT-2 language model designed to detect cybercrime scenarios from text descriptions and suggest relevant mitigation strategies.The model can interpret scenario prompts—such as suspicious emails, unexpected website redirects, or login anomalies—and generate concise outputs identifying the type of cybercrime involved (like phishing, DNS spoofing, or session hijacking) along with actionable mitigation advice.
