@@ -8,8 +8,7 @@ Original file is located at
 """
 
 from google.colab import files
-uploaded = files.upload()  # Upload 'cybersecurity_large_synthesized_data.csv'
-
+uploaded = files.upload() 
 !pip install transformers datasets pandas torch
 
 import pandas as pd
@@ -17,14 +16,11 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel, Trainer, TrainingArgume
 import torch
 import os
 
-# Load and clean dataset
 df = pd.read_csv("cybercrime_mitigation_dataset.csv")
-df.columns = df.columns.str.strip()  # Remove whitespace
+df.columns = df.columns.str.strip()  
 
-# Fill NAs with blank
 df = df.fillna("")
 
-# Build prompt-completion format
 def make_prompt_completion(row):
     if row['Identification']:
         prompt = f"Scenario: {row['Identification']}\nCybercrime:"
@@ -36,19 +32,16 @@ def make_prompt_completion(row):
 
 df['text'] = df.apply(make_prompt_completion, axis=1)
 
-# Save to text file for training
 with open("cybercrime_dataset.txt", "w", encoding="utf-8") as f:
     for line in df['text']:
         f.write(line + "\n")
 
-# Load tokenizer and model
 model_name = "gpt2"
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
-tokenizer.pad_token = tokenizer.eos_token  # GPT2 doesn't have padding token
+tokenizer.pad_token = tokenizer.eos_token 
 
 model = GPT2LMHeadModel.from_pretrained(model_name)
 
-# Create dataset
 def load_dataset(file_path, tokenizer, block_size=128):
     dataset = TextDataset(
         tokenizer=tokenizer,
@@ -58,12 +51,10 @@ def load_dataset(file_path, tokenizer, block_size=128):
 
 train_dataset = load_dataset("cybercrime_dataset.txt", tokenizer)
 
-# Data collator
 data_collator = DataCollatorForLanguageModeling(
     tokenizer=tokenizer, mlm=False
 )
 
-# Training arguments
 training_args = TrainingArguments(
     output_dir="./gpt2-cybercrime",
     overwrite_output_dir=True,
@@ -78,7 +69,6 @@ training_args = TrainingArguments(
     weight_decay=0.01
 )
 
-# Trainer
 trainer = Trainer(
     model=model,
     args=training_args,
@@ -86,22 +76,20 @@ trainer = Trainer(
     data_collator=data_collator
 )
 
-# Fine-tune the model
 trainer.train()
 
-# Save final model
 trainer.save_model("./gpt2-cybercrime")
 tokenizer.save_pretrained("./gpt2-cybercrime")
 
 from transformers import pipeline
 
 model_path = "./gpt2-cybercrime"
-generator = pipeline("text-generation", model=model_path, tokenizer=model_path, device=-1)  # force CPU
+generator = pipeline("text-generation", model=model_path, tokenizer=model_path, device=-1)  
 
 prompt = "Scenario: redirected to a suspicious website unexpectedly\nCybercrime:"
 output = generator(
     prompt,
-    max_new_tokens=50,  # limit how much to generate
+    max_new_tokens=50, 
     do_sample=True,
     temperature=0.7,
     top_p=0.9,
@@ -112,17 +100,14 @@ print(output[0]["generated_text"])
 
 from transformers import pipeline
 
-# Load fine-tuned model and tokenizer
 model_path = "./gpt2-cybercrime"
 generator = pipeline("text-generation", model=model_path, tokenizer=model_path, device=-1)
 
-# Define test prompts
 prompts = [
     "Scenario: Victim receives an email from a trusted contact, but the message contains unusual language and a suspicious attachment.\nCybercrime:",
     "Scenario: A user notices that the date typed on a login page is being recorded and transmitted to an attacker.\nCybercrime:"
 ]
 
-# Generate and print predictions
 for i, prompt in enumerate(prompts, 1):
     output = generator(
         prompt,
@@ -138,12 +123,12 @@ for i, prompt in enumerate(prompts, 1):
 from transformers import pipeline
 
 model_path = "./gpt2-cybercrime"
-generator = pipeline("text-generation", model=model_path, tokenizer=model_path, device=-1)  # force CPU
+generator = pipeline("text-generation", model=model_path, tokenizer=model_path, device=-1)  
 
 prompt = "Credential stuffing"
 output = generator(
     prompt,
-    max_new_tokens=50,  # limit how much to generate
+    max_new_tokens=50, 
     do_sample=True,
     temperature=0.7,
     top_p=0.9,
